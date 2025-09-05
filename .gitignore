@@ -1,0 +1,35 @@
+# Ignore Maven build output
+chelle-fulk-main-api/target/
+
+# Build and IDE artifacts
+*.class
+*.jar
+*.war
+*.ear
+*.log
+
+# IDE/project files
+.idea/
+.vscode/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Secrets and credentials
+*.json
+google-service-account.json
+.env
+*.pem
+*.key
+
+# Misc
+node_modules/
+sqlScripts/
+
+# Sensitive credentials and secrets
+chelle-fulk-main-api/src/main/resources/application.properties
+chelle-fulk-main-api/src/main/resources/google-service-account.json
+chelle-fulk-main-api/src/main/resources/data.sql
+chelle-fulk-main-api/src/main/resources/seed_recordings.sql

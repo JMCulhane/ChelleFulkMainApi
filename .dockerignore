@@ -1,0 +1,6 @@
+target/*.jar
+src/
+*.md
+.git/
+*.iml
+.idea/
