@@ -3,7 +3,7 @@ name: Deploy ChelleFulkMainApi to Superb.net
 on:
   push:
     branches:
-      - main
+      - DeployApplication
 
 jobs:
   build-and-deploy:
